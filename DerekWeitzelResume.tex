@@ -1,0 +1,124 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\documentclass[12pt]{article}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\usepackage{bibentry}
+
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\huge\bf Derek J. Weitzel}
+
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+
+ \moveleft.5\hoffset\centerline{2231 SW 13 St}
+ \moveleft.5\hoffset\centerline{Lincoln, NE 68522}
+ \moveleft.5\hoffset\centerline{(402) 450-9237}
+ \moveleft.5\hoffset\centerline{dweitzel@cse.unl.edu}
+
+
+\begin{resume}
+ \bibliographystyle{acm}
+\nobibliography{DerekWeitzelResume}
+\section{OBJECTIVE}  An internship developing distributed systems in cloud and grid environments.
+ 
+
+
+ 
+\section{RESEARCH}
+                {\sl Graduate Research Assistant} \hfill       May 2009 - Present \\
+                University of Nebraska Ð Lincoln Holland Computing Center, Lincoln, NE
+                \begin{itemize} \itemsep -2pt
+                \item Designed distributed workflows to run scientific applications on the Open Science Grid.
+                \item Developed data analysis tools using Hadoop MapReduce
+                \item Created cross platform cluster visualization tools using C++ and OpenGL\\
+                (http://www.youtube.com/djw8605)
+                \end{itemize}
+                
+                
+ \section{RESEARCH \\ ACTIVITIES}  
+           %   \bibentry{WeitzelHe:GPN} \\
+              \bibentry{Weitzel:OSGAHM} \\
+              \bibentry{Weitzel:CondorWeek10}
+               
+
+
+\section{EXPERIENCE}
+
+              {\sl Summer Graduate Researcher} \hfill        May 2010 - August 2010 \\
+                Fermi National Accelerator Laboratory
+                  \begin{itemize}  \itemsep -2pt
+                  \item Designed distributed computing and data workflows using Condor, a high throughput batch scheduler
+                   \item Wrote and maintained user documentation for the Open Science Grid
+                   \item Packaged and documented grid software for end users
+                   \end{itemize} 
+
+              {\sl Assistant System Administrator} \hfill May 2006 - May 2009 \\
+                University of Nebraska -- Lincoln Holland Computing Center, 
+                Lincoln, NE
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Assisted in super computer cluster administration of a top 500 system
+                \item   Developed visual cluster monitoring software \\
+                           (http://sourceforge.net/projects/fish-monitoring) 
+                \end{itemize}
+ 
+              
+ 
+ 
+ 
+                {\sl Development Engineer Intern} \hfill            May 2008 - August 2008 \\
+                International Business Machines (IBM), Austin, TX 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Lead developer redesigning dynamic functional simulator using Python and C.
+               
+                 \end{itemize} 
+      
+      
+      	    
+                 
+%                {\sl CADD Technician} \hfill        Summer 2005 \\
+%                Specialized Engineering Solutions, Omaha, NE
+%                  \begin{itemize}  \itemsep -2pt
+%                   \item Drafted commercial, mechanical, and electrical systems.
+%                   \item Assisted in specifying equipment for clients 
+%                   \end{itemize} 
+                   
+\section{EDUCATION} {\sl Bachelor of Science} Computer Engineering \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                University of Nebraska -- Lincoln \\
+                GPA: 3.5 \\ 
+                \\
+                {\sl Masters of Science} Computer Engineering \\
+                University of Nebraska -- Lincoln \\
+                Expected Graduation Date: May 2011 \\
+                GPA: 3.8
+
+
+\section{COMPUTER \\ SKILLS} {\sl Languages \& Software:} C/C++, Python, Java, PHP, 
+                    HTML, SQL, XML, Perl, C\#, Visual Studio, 
+                    CADD, VMware, Xen, MySQL \\
+                {\sl Operating Systems:} Linux, Windows, Mac, Unix
+ 
+
+
+%\bibliography{DerekWeitzelResume.bib}
+
+
+
+\end{resume}
+
+
+\end{document}
+
+
+
+
