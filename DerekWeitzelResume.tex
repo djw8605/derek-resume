@@ -1,4 +1,5 @@
 % LaTeX resume using res.cls
+\let\nofiles\relax
 \documentclass[margin]{res}
 %\documentclass[12pt]{article}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
@@ -27,7 +28,6 @@
 \begin{resume}
  \bibliographystyle{acm}
 \nobibliography{DerekWeitzelResume}
-\section{OBJECTIVE}  An internship developing distributed systems in cloud and grid environments.
  
 
 
@@ -37,9 +37,8 @@
                 University of Nebraska Ð Lincoln Holland Computing Center, Lincoln, NE
                 \begin{itemize} \itemsep -2pt
                 \item Designed distributed workflows to run scientific applications on the Open Science Grid.
+                \item Implemented remote submission mechanism, Bosco, designed for campus researchers.
                 \item Developed data analysis tools using Hadoop MapReduce
-                \item Created cross platform cluster visualization tools using C++ and OpenGL\\
-                (http://www.youtube.com/djw8605)
                 \end{itemize}
                 
                 
@@ -47,35 +46,6 @@
                
 
 
-\section{EXPERIENCE}
-
-              {\sl Summer Graduate Researcher} \hfill        May 2010 - August 2010 \\
-                Fermi National Accelerator Laboratory
-                  \begin{itemize}  \itemsep -2pt
-                  \item Designed distributed computing and data workflows using Condor, a high throughput batch scheduler
-                   \item Wrote and maintained user documentation for the Open Science Grid
-                   \item Packaged and documented grid software for end users
-                   \end{itemize} 
-
-              {\sl Assistant System Administrator} \hfill May 2006 - May 2009 \\
-                University of Nebraska -- Lincoln Holland Computing Center, 
-                Lincoln, NE
-                 \begin{itemize}  \itemsep -2pt %reduce space between items
-                 \item Assisted in super computer cluster administration of a top 500 system
-                \item   Developed visual cluster monitoring software \\
-                           (http://sourceforge.net/projects/fish-monitoring) 
-                \end{itemize}
- 
-              
- 
- 
- 
-                {\sl Development Engineer Intern} \hfill            May 2008 - August 2008 \\
-                International Business Machines (IBM), Austin, TX 
-                 \begin{itemize}  \itemsep -2pt %reduce space between items
-                 \item Lead developer redesigning dynamic functional simulator using Python and C.
-               
-                 \end{itemize} 
       
       
       	    
@@ -87,37 +57,30 @@
 %                   \item Assisted in specifying equipment for clients 
 %                   \end{itemize} 
                    
-\section{EDUCATION} {\sl Bachelor of Science} Computer Engineering \\
-                      % \sl will be bold italic in New Century Schoolbook (or
-	              % any postscript font) and just slanted in
-		      %	Computer Modern (default) font
+\section{EDUCATION} 
+                {\sl PhD} Computer Science \\
                 University of Nebraska -- Lincoln \\
-                GPA: 3.5 \\ 
-                \\
-                {\sl Masters of Science} Computer Engineering \\
-                University of Nebraska -- Lincoln \\
-                Expected Graduation Date: May 2011 \\
-                GPA: 3.8
-
-
-\section{COMPUTER \\ SKILLS} {\sl Languages \& Software:} C/C++, Python, Java, PHP, 
-                    HTML, SQL, XML, Perl, C\#, Visual Studio, 
-                    CADD, VMware, Xen, MySQL \\
-                {\sl Operating Systems:} Linux, Windows, Mac, Unix
+                Advisor: Dr. David Swanson \\
+                Expected Graduation Date: Dec. 2014 \\
+                
  
 
 
-%\bibliography{DerekWeitzelResume.bib}
+% \bibliography{DerekWeitzelResume.bib}
 
- \section{RESEARCH \\ ACTIVITIES}  
+ \section{PUBLICATIONS}  
            %   \bibentry{WeitzelHe:GPN} \\
-              \bibentry{Weitzel:OSGAHM} \\
-              \bibentry{Weitzel:CondorWeek10} \\
-              \bibentry{Weitzel:CondorWeek11} \\
-              \bibentry{weitzel2011campus} \\
-              \bibentry{Weitzel:CHEPCampusGrids}
+              \bibentry{weitzel2014accessing} \\
+              \bibentry{levshina2014grid} \\
+              \bibentry{he2012hog} \\
+              \bibentry{weitzel2012campus} \\
+              \bibentry{Weitzel:CHEPCampusGrids} 
 
 \end{resume}
+
+
+\newpage
+ \moveleft.5\hoffset\centerline{\huge\bf Professional Summary}
 
 
 \end{document}
